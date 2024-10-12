@@ -1,14 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../Pages/Home/Home";
-import HowItWorks from "../Pages/Howitworks/HowItWorks";
+import { Routes, Route } from "react-router-dom";
 import Terms from "../components/Footer/Terms";
-import PrivacyPolicy from "../Pages/privacy-policy/Privacy-police";
 import QuestionAndAnswer from "../Pages/QuestionAndAnswer/QuestionAndAnswer";
-import AuthLayout from "../Pages/AuthLayout/AuthLayout";
-import PageNotFound from "../Pages/PageNotFound/PageNotFound";
-import ForgotPassword from "../Pages/ForgotPassword/ForgotPassword";
 import AskQuestion from "../Pages/Question/AskQuestion/AskQuestion";
+import ForgotPassword from "../Pages/ForgotPassword/ForgotPassword";
+import PageNotFound from "../Pages/PageNotFound/PageNotFound";
+import PrivacyPolicy from "../Pages/PrivacyPolicy/PrivacyPolicy";
+import Home from "../Pages/Home/Home";
+import AuthLayout from '../Pages/AuthLayout/AuthLayout'
+import HowItWorks from "../pages/HowItWorks/HowItWorks";
+
 function AppRouter() {
   return (
     <Routes>
