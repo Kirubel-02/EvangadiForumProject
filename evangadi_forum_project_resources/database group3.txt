@@ -38,3 +38,12 @@ CREATE TABLE users(
     
 
 //////////////////////
+
+ALTER TABLE questions
+ADD COLUMN createdAt TIMESTAMP NULL;
+
+ALTER TABLE answers
+ADD COLUMN createdAt TIMESTAMP NULL;
+
+ALTER TABLE users
+ADD COLUMN createdAt TIMESTAMP NULL;
